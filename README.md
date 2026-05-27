@@ -95,11 +95,11 @@ skills/suprava-content-agent/
 │   └── output-format.md                         Research brief and headline list formats; platform menu
 └── skills/
     ├── linkedin-writer/
-    │   ├── system.md                            5-step pipeline: inputs → template → write → revise → humanize
+    │   ├── system.md                            5-step pipeline: inputs → STAR framework → write → revise → humanize
     │   └── references/
-    │       ├── voice.md                         Suprava's voice guide — hooks, transitions, CTAs, tone markers
-    │       ├── suprava_sabat_template_reference.md   27 structural templates (structure only)
-    │       └── jasmin_alic_template_placeholder.md   20 structural templates (structure only)
+    │       ├── voice.md                         Suprava's voice guide — transitions, CTAs, tone markers, sentence rhythm
+    │       ├── hooks.md                         18-type hook library — select one hook type per post
+    │       └── suprava_sabat_template_reference.md   27 structural templates (formatting reference — STAR is mandatory structure)
     ├── x-writer/
     │   ├── system.md                            7-step pipeline: input → format → hook → CTA → write → output → humanize
     │   ├── tweet-examples.md                    High-performing tweet examples (100K+ views)

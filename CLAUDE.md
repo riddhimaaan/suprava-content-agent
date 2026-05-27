@@ -20,11 +20,11 @@ skills/
       YYYY-MM-DD-[slug].md                       One file per finalized story — created at runtime, not in repo
     skills/
       linkedin-writer/
-        system.md                                5-step pipeline: gather inputs → template → write → revise → humanize
+        system.md                                5-step pipeline: gather inputs → STAR framework → write → revise → humanize
         references/
-          voice.md                               Suprava's voice guide — hooks, transitions, CTAs, tone markers
-          suprava_sabat_template_reference.md    27 structural templates (structure only — voice comes from voice.md)
-          jasmin_alic_template_placeholder.md    20 structural templates (structure only — voice comes from voice.md)
+          voice.md                               Suprava's voice guide — transitions, CTAs, tone markers, sentence rhythm
+          hooks.md                               18-type hook library — select one hook type per post
+          suprava_sabat_template_reference.md    27 structural templates (formatting reference — STAR is mandatory structure)
       x-writer/
         system.md                                7-step pipeline: input → format → hook → CTA → write → output → humanize
         tweet-examples.md                        High-performing tweet examples (100K+ views)
@@ -61,7 +61,7 @@ bash install.sh        # macOS/Linux
 
 - Research always precedes writing. The platform handoff only runs after a full research brief is delivered (Modes 1, 2, 3 Phase 2). Mode 4 does not trigger the platform handoff.
 - Mode 3 is two phases. Phase 1 produces a headline list. Phase 2 (deep research) only runs after the user picks an angle. Never skip to Phase 2 without user input.
-- Templates (LinkedIn) provide structure only. Voice always comes from `references/voice.md`. A post built on a Jasmin Alić structural template must still sound like Suprava.
+- LinkedIn posts follow the mandatory STAR framework (Situation → Task → Action → Result). Voice always comes from `references/voice.md`. The Suprava Sabat templates are formatting references only.
 - Every platform write ends with an automatic humanizer pass before delivery. This step is not optional.
 - YouTube scripts are written section by section. Each section requires user approval before the next is written. Full script assembly happens after all sections are approved.
 - Content themes filter applies to Modes 1, 2, and 3. Mode 4 is unconstrained — do not apply the filter there.

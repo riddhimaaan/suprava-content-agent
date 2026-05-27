@@ -17,10 +17,10 @@ LinkedIn rewards specificity, earned insight, and professional vulnerability. A 
 
 | Source | What it provides | What it does NOT provide |
 |---|---|---|
-| Reference templates (Suprava Sabat + Jasmin Alić) | Post structure only — hook position, body layout, paragraph order, CTA placement | Tone, phrasing, word choice, personality |
+| STAR framework (mandatory) | Post structure — Situation → Task → Action → Result beats, hook position, CTA placement | Tone, phrasing, word choice, personality |
 | `references/voice.md` | Tone, phrasing, sentence rhythm, signature transitions, CTA language, emoji usage | Structure |
 
-The template you select in Step 2 is a structural skeleton — a frame. The writing that goes into that frame must always sound like Suprava, using her voice as defined in `references/voice.md`. Never let the tone, phrasing, or personality of the reference template bleed into the post. A post built on a Jasmin Alić structural template must still sound like Suprava wrote it.
+The STAR framework defines where each beat sits. The writing that fills each beat must always sound like Suprava, using her voice as defined in `references/voice.md`. The Suprava Sabat reference templates are available as style references for formatting within STAR sections, but they do not replace the STAR structure and must never dictate tone.
 
 ---
 
@@ -62,55 +62,55 @@ This skill is Suprava's personal pipeline. Several inputs are fixed and should n
 
 ---
 
-## Step 2: Select a Reference Template
+## Step 2: Apply the STAR Framework
 
-After gathering inputs, read both template files in the `references/` folder:
-- `references/suprava_sabat_template_reference.md` — 27 templates from Suprava Sabat
-- `references/jasmin_alic_template_placeholder.md` — 20 templates from Jasmin Alić
+Every post follows the STAR structure — no exceptions. This is the mandatory skeleton for all LinkedIn posts.
 
-**What you are looking for: structure only.** Read each template to understand where the hook sits, how the body is laid out, how many sections it has, where the CTA lands, and how paragraph blocks are arranged. Ignore the specific words, the tone, the personality — those belong to the original creator and must not carry over into Suprava's post.
+| Beat | Purpose | LinkedIn execution |
+|---|---|---|
+| **Situation** | Introduce a common problem or misconception in the reader's world | Hook line(s) + 1–2 lines that establish the problem |
+| **Task** | Define what needs to happen to solve or understand it | 1–2 lines that sharpen the problem — what exactly is at stake or needs to change |
+| **Action** | Provide the step-by-step guide or strategy | The body — 3–7 specific steps with real detail, formatted for LinkedIn readability |
+| **Result** | Share expected outcomes, case studies, or personal insights | 2–3 lines on what happens when the Action is applied — use real numbers if available |
 
-Select the single best-fitting structural pattern based on the post type, topic, and goal.
+**Hook position:** The hook sits at the very top of Situation — the first 1–2 lines visible before "see more." Read `references/hooks.md` and select one of the 18 hook types that matches the post's emotional angle. Write 2–3 variations and use the sharpest one. The hook must be a standalone line.
 
-**Suprava Sabat templates** work best for: step-by-step tactical posts, tool or system reveals, outcome-first instructional content, giveaway or lead-magnet posts.
+**CTA position:** The CTA follows Result — one CTA per post, using one of her CTA patterns from the voice guide.
 
-**Jasmin Alić templates** work best for: personal story posts, opinion or contrarian takes, community and relationship content, narrative-driven posts with a lesson.
+**Formatting:** 2–3 relevant hashtags on their own line, after the CTA.
 
-Tell the user which template you're using (by name/number) and one sentence on why the structure fits.
+**Style reference:** `references/suprava_sabat_template_reference.md` is available as a formatting reference — particularly for how Action sections can be structured (numbered steps vs. bullet points vs. short paragraphs). Use it for formatting inspiration within STAR beats, not as a replacement for the STAR structure.
 
-**Template Lock:** Once selected, the structural pattern is locked for the entire post — hook position, body layout, paragraph order, CTA placement. Do not mix structural elements from two templates.
-
-**Voice Lock:** Regardless of which template's structure is used, all writing follows `references/voice.md`. The template tells you where things go. The voice guide tells you how they sound. These two sources must never be confused.
+**Voice Lock:** All writing follows `references/voice.md`. The STAR framework tells you what goes where. The voice guide tells you how it sounds. These two sources must never be confused.
 
 ---
 
 ## Step 3: Write the Post
 
-Write the complete LinkedIn post using the selected template as the structural skeleton and `references/voice.md` as the guide for how the writing inside that skeleton sounds.
+Write the complete LinkedIn post following the STAR framework (Step 2) as the structural skeleton and `references/voice.md` as the guide for how the writing inside that skeleton sounds.
 
 **Writing rules:**
 - Match Suprava's voice as defined in `references/voice.md` — hook pattern, paragraph length, signature transitions, CTA format, emoji usage, and tone markers
 - Use specific numbers over vague claims — never "many results," always "7 of 10 meetings booked"
-- First line must be a standalone hook drawn from her hook patterns (outcome, problem/accusation, command, steal/reveal, personal story, promise) — no warmup sentence before it
+- First line must be a standalone hook selected from `references/hooks.md` — use the Quick Selection Guide to match the hook type to the post's emotional angle; no warmup sentence before it
 - Short paragraphs, deliberate line breaks — 1–3 lines per block, then white space
 - Every line either earns attention, deepens the idea, or moves toward the CTA — cut filler
 - One CTA per post, using one of her CTA patterns from the voice guide
 - 2–3 hashtags at the very end, on their own line, lowercase
 - **Avoid LinkedIn clichés:** "Unpopular opinion:", "This is your sign to...", "Nobody talks about this but...", "I'm humbled to share...", "Excited to announce..."
 - **Avoid motivational poster language:** "Success is a journey", "Believe in yourself"
-- Label each section matching the template's structure (Hook, Story, Insight, Lesson, CTA) — these labels are for internal reference, not in the post
+- Label each section with the STAR beats (Hook, Situation, Task, Action, Result, CTA) — these labels are for internal reference, not in the post
 - **Creator attribution (mandatory):** Never carry over any creator name, handle, or attribution from the reference templates. The only name that may appear in the post is the user's own name.
-- **Voice guardrail (mandatory):** If at any point the post starts to sound like Jasmin Alić (warm, community-driven, P.S. sign-offs, "givers get") or any other creator — stop and rewrite that section using Suprava's voice from `references/voice.md`. Structure can come from anywhere. Voice comes from one place only.
+- **Voice guardrail (mandatory):** If at any point the post starts to sound like anyone other than Suprava — stop and rewrite that section using `references/voice.md`. Voice comes from one place only.
 
 ---
 
 ## Step 4: Revision Rule
 
 If the user asks for changes:
-- Stay locked to the same template selected in Step 2
-- Make all edits within that template's structure
-- Do not switch templates unless the user explicitly says they want to start over with a different template
-- If a revision request requires structural changes that go against the template, flag it and ask if they want to switch templates entirely
+- Stay locked to the STAR framework structure
+- Make all edits within the STAR beats — Situation, Task, Action, Result, CTA
+- If a revision request requires a fundamentally different post structure, flag it and ask if they want to start over
 
 ---
 
