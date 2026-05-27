@@ -1,0 +1,14 @@
+{
+  "name": "suprava-content-agent-claudeplugin",
+  "owner": {
+    "name": "riddhimaaan"
+  },
+  "plugins": [
+    {
+      "name": "suprava-content-agent",
+      "displayName": "Suprava Content Agent",
+      "source": "./",
+      "description": "Research-first content pipeline for Suprava. Finds real brand stories and campaign specifics across four input modes, then routes to platform-native writers for LinkedIn, X, and YouTube — each with an automatic humanizer pass."
+    }
+  ]
+}

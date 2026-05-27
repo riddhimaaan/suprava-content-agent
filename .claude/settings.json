@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(humanizer)",
+      "Skill(humanizer:*)",
+      "PowerShell(New-Item -ItemType Directory -Force \"e:\\\\Claude SKills\\\\suprava-content-agent\\\\.claude-plugin\")"
+    ]
+  }
+}

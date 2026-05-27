@@ -1,0 +1,10 @@
+{
+  "name": "suprava-content-agent",
+  "version": "1.0.0",
+  "description": "Research-first content pipeline for Suprava. Finds real brand stories and campaign specifics across four input modes, then routes to platform-native writers for LinkedIn, X, and YouTube — each with an automatic humanizer pass.",
+  "author": {
+    "name": "Riddhiman Bania"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/riddhimaaan/suprava-content-agent-claudeplugin"
+}
