@@ -26,7 +26,7 @@ The template you select in Step 2 is a structural skeleton — a frame. The writ
 
 ## When Invoked from the Research Pipeline
 
-If this skill is triggered from a research brief (via the `/research-agent` or `/suprava-research-agent` skill), the topic, angle, and audience context are already established. In that case:
+If this skill is triggered from a research brief (via the `/suprava-content-agent` skill), the topic, angle, and audience context are already established. In that case:
 - Pre-fill Step 1 questions 1, 2, and 3 from the research brief — do not ask Suprava to repeat information already established
 - Ask only the remaining Step 1 questions (4–8) that the brief doesn't answer
 - Use the specific story, names, numbers, and outcomes from the research brief as raw material for the post
@@ -49,18 +49,16 @@ This is NOT Instagram. The medium is different, the reader is different, the con
 
 ## Step 1: Gather Core Inputs
 
-Ask the user ALL of the following questions in one message. Do not skip any. Do not start writing until you have all answers.
+This skill is Suprava's personal pipeline. Several inputs are fixed and should never be asked:
 
-If invoked from a research brief, pre-fill 1, 2, and 3 and ask only the remaining questions.
+**Pre-filled — always apply, never ask:**
+- **Niche / professional context (Q7):** Suprava runs AcquisitionX, a B2B GTM and content agency. Her LinkedIn presence is about creative GTM, human-touch marketing, and unconventional growth stories for founders and operators. Use this as the professional frame for every post.
 
-1. **Topic** — What is the post about?
-2. **Your angle** — What specific thing do you want to say about this topic? What's the one core insight, opinion, or lesson?
-3. **Target audience** — Who is this post for? Be as specific as possible.
-4. **The bridge** — What is the specific method, strategy, tool, framework, or approach you're sharing? This is the substance of the post — the actual "how."
-5. **Tone** — How should it feel? (e.g., direct and no-nonsense, reflective and honest, quietly confident, contrarian, warmly professional)
-6. **Goal** — What do you want the reader to do, think, or feel after reading?
-7. **Your niche / professional context** — What do you do, what industry are you in, and what is your overall LinkedIn presence about?
-8. **Personal details to include** — Any specific story, result, mistake, number, moment, or phrase you want in the post?
+**In practice, when invoked from a research brief:**
+- Pre-fill Q1 (topic), Q2 (angle), Q3 (audience), Q7 (niche) — these are already established
+- State the inferred tone and goal — do not ask
+- Ask only Q4 (bridge, or confirm if already clear) and Q8 (optional personal details)
+- Ask both in a single message. One round of input, then write.
 
 ---
 

@@ -20,7 +20,7 @@ metadata:
 
 Research real, non-obvious stories on any topic — and serve them up as ready-to-use briefs for the content pipeline.
 
-This skill is the first layer of Suprava's content workflow. It does not write posts. It finds the raw material: the actual brand stories, founder moments, campaign specifics, and trend signals that make content worth reading. Downstream skills (`x-content-writer`, `linkedin-content-writer`, etc.) turn this output into platform-native posts.
+This skill is the first layer of Suprava's content workflow. It does not write posts. It finds the raw material: the actual brand stories, founder moments, campaign specifics, and trend signals that make content worth reading. Downstream skills (`x-content-writer`, `linkedin-post-writer`, `youtube-script-writer`) turn this output into platform-native posts.
 
 ---
 

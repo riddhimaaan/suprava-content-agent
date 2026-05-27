@@ -9,7 +9,7 @@ Write full YouTube video scripts section by section — human-sounding, direct, 
 
 ## Framework Reference
 
-Before writing any section, read `master-framework.md` in this folder.
+Before writing any section, read `masterframework.md` in this folder.
 
 That file contains the structural frameworks derived from high-performing YouTube videos — hook patterns, section rhythms, transition rules, recap formats, and CTA structures. Every script section must be written using one of those frameworks. Do not invent a new structure. Pick the framework that fits the section type and apply it.
 

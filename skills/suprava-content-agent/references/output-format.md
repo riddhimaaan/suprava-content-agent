@@ -127,3 +127,8 @@ Always end with the platform selection menu — exactly this format:
 
 Reply with a number — and which angle from the brief you want to use.
 ```
+
+**Slash commands (for Claude Code):**
+- LinkedIn: `/linkedin-post-writer`
+- X: `/x-content-writer`
+- YouTube: `/youtube-script-writer`

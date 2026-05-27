@@ -19,7 +19,7 @@ Before writing, read and internalize these files in the same directory:
 
 ## When Invoked from the Research Pipeline
 
-If this skill is triggered from a research brief, the topic, goal, and audience are already established. In that case:
+If this skill is triggered from a research brief (via the `/suprava-content-agent` skill), the topic, goal, and audience are already established. In that case:
 - Skip Step 1 clarifying questions that the research brief already answers
 - Go straight to choosing format and hook type (Steps 2 and 3)
 - Use the specific story, names, numbers, and outcomes from the research brief as the raw material
