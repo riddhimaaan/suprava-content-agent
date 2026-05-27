@@ -14,6 +14,12 @@ Write-Output "Installing $SkillName..."
 New-Item -ItemType Directory -Force $Target | Out-Null
 Copy-Item -Recurse -Force "$SkillSrc\*" $Target
 
+# Preserve the memory folder but do not overwrite existing stories on reinstall
+New-Item -ItemType Directory -Force "$Target\memory" | Out-Null
+if (-not (Test-Path "$Target\memory\INDEX.md")) {
+    Copy-Item "$SkillSrc\memory\INDEX.md" "$Target\memory\INDEX.md"
+}
+
 Write-Output ""
 Write-Output "Done. $SkillName installed to $Target"
 Write-Output ""

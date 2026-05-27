@@ -119,6 +119,22 @@ skills/suprava-content-agent/
 
 The LinkedIn writer enforces a strict separation: templates provide structure, `voice.md` provides tone. A post built on any template always sounds like Suprava.
 
+### Story Memory
+
+Every finalized research brief is automatically saved to a personal story archive at:
+
+```
+# Windows
+%USERPROFILE%\.claude\skills\suprava-content-agent\memory\
+
+# macOS / Linux
+~/.claude/skills/suprava-content-agent/memory/
+```
+
+One `.md` file per story, named `YYYY-MM-DD-[story-slug].md`. A maintained `INDEX.md` tracks all saved stories in a table.
+
+Before running new searches in Topic Only mode, the agent checks the index to avoid re-surfacing stories that have already been researched. Stories already in memory are not re-suggested.
+
 ---
 
 ## Requirements

@@ -15,6 +15,9 @@ skills/
       content-themes.md                          7 content themes in priority order; seed examples; what to reject
       search-strategy.md                         Source tiers, quality criteria, fallback search tactics
       output-format.md                           Format A (headline list) and Format B (research brief); platform menu
+    memory/
+      INDEX.md                                   Running index of all saved stories (maintained by the agent)
+      YYYY-MM-DD-[slug].md                       One file per finalized story — created at runtime, not in repo
     skills/
       linkedin-writer/
         system.md                                5-step pipeline: gather inputs → template → write → revise → humanize
@@ -62,3 +65,6 @@ bash install.sh        # macOS/Linux
 - Every platform write ends with an automatic humanizer pass before delivery. This step is not optional.
 - YouTube scripts are written section by section. Each section requires user approval before the next is written. Full script assembly happens after all sections are approved.
 - Content themes filter applies to Modes 1, 2, and 3. Mode 4 is unconstrained — do not apply the filter there.
+- Every finalized research brief (Modes 1, 2, 3 Phase 2) is automatically saved to `memory/` as a dated .md file. The INDEX.md is updated with every save.
+- Before Mode 3 Phase 1 searches, INDEX.md is checked for existing stories on the same topic. Stories already in memory are not re-surfaced in new headline lists.
+- Story files are created at runtime and are not tracked by the plugin repo. Only INDEX.md ships as a template.

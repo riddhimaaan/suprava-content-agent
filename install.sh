@@ -17,6 +17,12 @@ echo "Installing $SKILL_NAME..."
 mkdir -p "$TARGET"
 cp -r "$SKILL_SRC/." "$TARGET/"
 
+# Preserve the memory folder but do not overwrite existing stories
+mkdir -p "$TARGET/memory"
+if [ ! -f "$TARGET/memory/INDEX.md" ]; then
+  cp "$SKILL_SRC/memory/INDEX.md" "$TARGET/memory/INDEX.md"
+fi
+
 echo ""
 echo "Done. $SKILL_NAME installed to $TARGET"
 echo ""

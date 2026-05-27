@@ -3,7 +3,7 @@ name: suprava-content-agent
 version: "1.0.0"
 description: "Research agent for Suprava. Handles content pipeline research (ideas, pasted posts, topics) and open-ended research questions. Returns clear, sourced briefs — not generic advice."
 argument-hint: "suprava-content-agent"
-allowed-tools: WebSearch, WebFetch, Read
+allowed-tools: WebSearch, WebFetch, Read, Write
 user-invocable: true
 metadata:
   openclaw:
@@ -89,13 +89,14 @@ This mode runs in two distinct phases. Do not skip to Phase 2 without user input
 
 1. Read `references/content-themes.md` — understand what's in and out of scope
 2. Read `references/search-strategy.md` — understand how to search and what good results look like
-3. Run 5–7 targeted searches across different angles of the topic:
+3. Read `memory/INDEX.md` (see Story Memory section) — scan for any stories already finalized on this topic. Do not surface angles Suprava has already researched and saved. If the topic is heavily covered in memory, tell her what's already there before running new searches.
+4. Run 5–7 targeted searches across different angles of the topic:
    - Look for recent stories (2022–2025) of brands doing something unusual
    - Look for historical stories that are still relevant and underreported
    - Look on X/Twitter, LinkedIn, startup blogs, and founder interviews — not generic SEO content
    - Use the seed examples in `content-themes.md` as starting points to find similar stories
-4. After each search, evaluate results against the content-themes filter. Discard anything generic.
-5. Present the results as a **numbered headline list** using the Phase 1 format in `references/output-format.md`
+5. After each search, evaluate results against the content-themes filter. Discard anything generic.
+6. Present the results as a **numbered headline list** using the Phase 1 format in `references/output-format.md`
 
 The headline list should have 5–10 items. Each is just a title + 1–2 sentences of context — enough for Suprava to know what the story is about and pick one.
 
@@ -156,6 +157,101 @@ Read `skills/youtube-writer/system.md` in full. Pass the selected angle title an
 
 **→ 4 — Instagram**
 The Instagram content writer skill does not exist yet. Tell the user: "The IG writer is coming soon — pick another platform for now, or let me know if you'd like to build it."
+
+---
+
+## Story Memory
+
+Every finalized research brief is saved to a personal story archive. This keeps a permanent record of what has been researched, prevents re-covering the same stories, and builds a library Suprava can return to.
+
+---
+
+### When to save
+
+Save automatically after delivering a final research brief in:
+- **Mode 1** — after the research brief is delivered
+- **Mode 2** — after the research brief is delivered
+- **Mode 3 Phase 2** — after the deep research brief on the chosen angle is delivered
+
+Do **not** auto-save for Mode 4 (open questions). Mode 4 is a research tool, not a content story. Save Mode 4 output only if Suprava explicitly asks to save it.
+
+Save **before** presenting the platform selection menu — the story is finalized at the research stage, regardless of whether it gets developed into a post.
+
+---
+
+### Memory location
+
+The memory folder lives inside the skill's installed directory:
+
+- **Windows:** `%USERPROFILE%\.claude\skills\suprava-content-agent\memory\`
+- **macOS / Linux:** `~/.claude/skills/suprava-content-agent/memory/`
+
+Two files live in this folder:
+1. `INDEX.md` — a running table of all saved stories (one row per story)
+2. One `.md` file per story
+
+---
+
+### Naming convention
+
+`YYYY-MM-DD-[slug].md`
+
+The slug is the story title, lowercased, spaces replaced with hyphens, special characters removed, max 50 characters.
+
+Examples:
+- `2026-05-28-delph-doormat-campaign.md`
+- `2026-05-28-silicon-mania-animated-tech-narratives.md`
+- `2026-05-29-run-clubs-as-gtm-channel.md`
+
+---
+
+### Story file format
+
+```markdown
+---
+title: [Story headline — same as it appeared in the research brief]
+date: YYYY-MM-DD
+mode: [1 / 2 / 3]
+theme: [matching theme from content-themes.md — e.g. "Physical and offline GTM"]
+source: [primary source URL or attribution]
+platform: none
+---
+
+[2–3 sentence summary of the story — what happened, who did it, what made it worth covering]
+
+---
+
+[Full research brief content for this story — copy the exact section from the delivered brief]
+```
+
+The `platform` field starts as `none`. If Suprava develops it into a post, update it to `linkedin`, `x`, or `youtube`.
+
+---
+
+### Saving a story — step by step
+
+1. Construct the memory path for the current OS (see Memory location above)
+2. Generate the filename using the naming convention
+3. Write the story file using the format above
+4. Read `memory/INDEX.md` and add one row to the table:
+
+```
+| YYYY-MM-DD | [Story title] | [Theme] | [Filename] |
+```
+
+If `INDEX.md` does not exist yet, create it using the template in `memory/INDEX.md`.
+
+---
+
+### Checking memory before new research (Mode 3 Phase 1 only)
+
+At the start of Mode 3 Phase 1, read `memory/INDEX.md` before running any searches. Scan for stories that overlap with the current topic.
+
+- If 1–2 related stories exist: mention them briefly ("I've already covered X — looking for new angles") and continue with searches
+- If 3+ related stories exist on the same topic: show Suprava what's already in memory and ask whether she wants fresh angles or wants to develop one of the existing stories instead
+- If nothing related exists: proceed with searches without mentioning memory
+
+Do not surface the same story twice in a headline list if it is already in memory.
 
 ---
 
