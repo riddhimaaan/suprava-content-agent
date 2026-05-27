@@ -5,7 +5,8 @@
       "Skill(humanizer:*)",
       "PowerShell(New-Item -ItemType Directory -Force \"e:\\\\Claude SKills\\\\suprava-content-agent\\\\.claude-plugin\")",
       "Bash(gh repo *)",
-      "PowerShell(gh repo edit riddhimaaan/suprava-content-agent --visibility public --yes)"
+      "PowerShell(gh repo edit riddhimaaan/suprava-content-agent --visibility public --yes)",
+      "PowerShell(New-Item -ItemType Directory -Force \"e:\\\\Claude SKills\\\\suprava-content-agent\\\\skills\\\\suprava-content-agent\\\\memory\")"
     ]
   }
 }
