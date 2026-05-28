@@ -1,4 +1,4 @@
----
+﻿---
 name: yt-script-outline
 description: Build a detailed YouTube video script outline from a content research brief or topic. Use this skill when the user wants to (1) create a structured outline before writing the full script, (2) map out the video flow section by section, (3) define what each segment covers and for how long, (4) plan hooks, transitions, and CTAs, or (5) organize content research into a logical viewer journey. Requires a topic and ideally a content research brief as input.
 ---

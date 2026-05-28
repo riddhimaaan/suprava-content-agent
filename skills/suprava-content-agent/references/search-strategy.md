@@ -1,4 +1,4 @@
-# Search Strategy — How to Find the Right Stories
+﻿# Search Strategy — How to Find the Right Stories
 
 This file guides how to search. Read it before running searches in Mode 3 (and optionally in Modes 1 and 2 for better results).
 

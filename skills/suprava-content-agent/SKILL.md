@@ -1,4 +1,4 @@
----
+﻿---
 name: suprava-content-agent
 version: "1.0.0"
 description: "Research agent for Suprava. Handles content pipeline research (ideas, pasted posts, topics) and open-ended research questions. Returns clear, sourced briefs — not generic advice."
@@ -142,7 +142,7 @@ For when Suprava has a thought, a curiosity, or a question that doesn't fit the 
 
 After delivering any final research brief — Mode 1, Mode 2, or Mode 3 Phase 2 — present the platform selection menu from `references/output-format.md` and wait for the user's choice.
 
-Every platform write ends with an automatic humanizer pass (defined in `skills/humanizer/system.md`) before the content is delivered. The user always receives the humanized final version. This step is not optional and does not require user input to trigger.
+Every platform write ends with an automatic humanizer pass (via `skills/social-humanizer/system.md`) before the content is delivered. The user always receives the humanized final version. This step is not optional and does not require user input to trigger.
 
 ### On selection:
 
@@ -150,7 +150,7 @@ Every platform write ends with an automatic humanizer pass (defined in `skills/h
 Read `skills/linkedin-writer/system.md` in full. Follow its workflow with the selected research angle as starting context. Pre-fill what the research already established (topic, angle, audience) when the skill asks its Step 1 questions — do not ask the user to repeat information you already have.
 
 **→ 2 — X (Twitter)**
-Read `skills/x-writer/system.md` in full. Pass the selected research angle as the input. Skip any clarifying question the research brief already answers (topic, goal, audience are usually clear). Go straight to format and hook selection.
+Read `skills/x-writer/system.md` in full. Pass the selected research angle as the input. Skip any clarifying question the research brief already answers (topic, goal, audience are usually clear). Go straight to framework, format, and hook selection. Before delivering the final X output, run the `social-humanizer` skill and deliver only the humanized final version.
 
 **→ 3 — YouTube**
 Read `skills/youtube-writer/system.md` in full. Pass the selected angle title and the full research brief section as input. The research brief replaces the content research stage — go straight to outline, then script.
@@ -183,8 +183,8 @@ Save **before** presenting the platform selection menu — the story is finalize
 
 The memory folder lives inside the skill's installed directory:
 
-- **Windows:** `%USERPROFILE%\.claude\skills\suprava-content-agent\memory\`
-- **macOS / Linux:** `~/.claude/skills/suprava-content-agent/memory/`
+- **Windows:** `%USERPROFILE%\plugins\suprava-content-agent\skills\suprava-content-agent\memory\`
+- **macOS / Linux:** `~/plugins/suprava-content-agent/skills/suprava-content-agent/memory/`
 
 Two files live in this folder:
 1. `INDEX.md` — a running table of all saved stories (one row per story)

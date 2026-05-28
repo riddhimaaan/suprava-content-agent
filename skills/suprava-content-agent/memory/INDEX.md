@@ -1,4 +1,4 @@
-# Story Memory Index
+﻿# Story Memory Index
 
 This file is maintained automatically by the suprava-content-agent skill.
 Each row is a story that has been finalized through the research pipeline.

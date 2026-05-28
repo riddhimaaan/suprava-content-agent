@@ -1,4 +1,4 @@
----
+﻿---
 name: youtube-script-writer
 description: "Write a full YouTube video script from a research brief or topic. Runs a 2-stage pipeline: script outline (with user approval), then script writing section by section. No research or ideation stages — takes a topic/brief as input and goes straight to structure and writing."
 allowed-tools: Read
@@ -126,9 +126,9 @@ After all sections are approved and the full script is assembled:
 
 **Run the Humanizer Pass before delivering.**
 
-1. Read `skills/humanizer/system.md` in full
+1. Read `skills/social-humanizer/system.md` in full.
 2. For voice calibration: match the Channel Voice defined in `skills/youtube-writer/skills/05-script-writer/script-writer.md` — direct, practitioner tone, short sentences, "you" as subject, no filler transitions. No external voice reference file needed.
-3. Follow the draft → audit → final process defined in the humanizer
+3. Follow the draft → audit → final process defined in the social humanizer.
 4. Deliver the final humanized script with the completion block below
 
 ```

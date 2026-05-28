@@ -1,4 +1,4 @@
----
+﻿---
 name: linkedin-post-writer
 description: "Writes LinkedIn posts by gathering context through conversation, selecting a matching high-performing reference template, and producing human-sounding posts that capture the creator's real voice, perspective, and professional story."
 allowed-tools: Read
@@ -73,7 +73,13 @@ Every post follows the STAR structure — no exceptions. This is the mandatory s
 | **Action** | Provide the step-by-step guide or strategy | The body — 3–7 specific steps with real detail, formatted for LinkedIn readability |
 | **Result** | Share expected outcomes, case studies, or personal insights | 2–3 lines on what happens when the Action is applied — use real numbers if available |
 
-**Hook position:** The hook sits at the very top of Situation — the first 1–2 lines visible before "see more." Read `references/hooks.md` and select one of the 18 hook types that matches the post's emotional angle. Write 2–3 variations and use the sharpest one. The hook must be a standalone line.
+**Hook position:** The hook sits at the very top of Situation — the first 1–2 lines visible before "see more." The hook must be a standalone line.
+
+Two files govern hooks — use them in this order:
+1. `references/voice.md` hook patterns — Suprava's 6 actual hook types, derived from her own posts. These are the primary source. Pick whichever of her 6 fits the post's angle.
+2. `references/hooks.md` Quick Selection Guide — use this to match the right hook type to the post angle (e.g. tactical how-to → Outcome or Command; opinion post → Bold Claim). Then write the hook using voice.md's patterns and examples as the model, not the generic examples in hooks.md.
+
+Write 2–3 variations and use the sharpest one.
 
 **CTA position:** The CTA follows Result — one CTA per post, using one of her CTA patterns from the voice guide.
 
@@ -118,9 +124,9 @@ If the user asks for changes:
 
 After the post is written (and any revisions from Step 4 are done), run a humanizer pass before delivering the final output.
 
-1. Read `skills/humanizer/system.md` in full
-2. Use `references/voice.md` as the voice calibration reference — it already documents her sentence length patterns, paragraph rhythm, CTA style, opening hooks, and tone markers
-3. Follow the draft → audit → final process defined in the humanizer
-4. Deliver only the final humanized post to the user — do not show the pre-humanized draft
+1. Read `skills/social-humanizer/system.md` in full.
+2. Use `references/voice.md` as the voice calibration reference — it already documents her sentence length patterns, paragraph rhythm, CTA style, opening hooks, and tone markers.
+3. Follow the draft → audit → final process defined in the social humanizer.
+4. Deliver only the final humanized post to the user — do not show the pre-humanized draft.
 
 If the user asks for further revisions after the humanizer pass, apply the revision within the template structure (Step 4) and then run the humanizer pass again before delivering.

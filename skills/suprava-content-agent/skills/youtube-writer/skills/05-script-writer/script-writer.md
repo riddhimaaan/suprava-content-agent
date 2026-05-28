@@ -1,4 +1,4 @@
----
+﻿---
 name: yt-script-writer
 description: Write a full YouTube video script section by section from an approved outline. Use this skill when the user wants to (1) write the complete script for a YouTube video, (2) write a specific section of a script (hook, intro, core section, CTA), (3) rewrite a section that didn't land, (4) adjust script tone or pacing, or (5) adapt a script for a specific delivery style. Requires an outline as input. Writes section by section — user approves each before moving to the next.
 ---

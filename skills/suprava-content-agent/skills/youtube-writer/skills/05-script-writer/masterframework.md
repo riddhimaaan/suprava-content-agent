@@ -1,4 +1,4 @@
----
+﻿---
 name: yt-script-framework
 description: "Pre-saved structural frameworks extracted from high-performing YouTube videos. Use this skill when writing a new YouTube script — pick the framework that matches the video format and map the new topic into its skeleton beat-by-beat. Contains two frameworks: Framework 01 for tool/system/tutorial videos (Elimination Funnel Reveal) and Framework 02 for business audit/case study/coaching videos (Live Diagnosis Rebuild)."
 ---

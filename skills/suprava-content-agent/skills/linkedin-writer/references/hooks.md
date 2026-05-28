@@ -1,4 +1,4 @@
----
+﻿---
 name: hooks
 description: "18-type hook library for LinkedIn posts — select one hook type per post, write 2–3 variations, use the sharpest. Hook sits at the top of the STAR Situation beat."
 ---

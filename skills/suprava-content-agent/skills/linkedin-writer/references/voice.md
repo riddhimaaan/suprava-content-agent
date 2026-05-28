@@ -1,4 +1,4 @@
-# Suprava's LinkedIn Voice
+﻿# Suprava's LinkedIn Voice
 
 This document defines how Suprava writes on LinkedIn — her structural patterns, signature phrases, formatting habits, and tonal markers. Derived from analysis of her 27 published templates.
 

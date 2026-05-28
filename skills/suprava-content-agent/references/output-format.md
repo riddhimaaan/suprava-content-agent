@@ -1,4 +1,4 @@
-# Output Format — How to Present the Research
+﻿# Output Format — How to Present the Research
 
 There are two distinct output formats depending on the mode and phase.
 

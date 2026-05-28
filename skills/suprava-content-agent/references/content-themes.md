@@ -1,4 +1,4 @@
-# Content Themes — What Suprava's Content Is About
+﻿# Content Themes — What Suprava's Content Is About
 
 This file tells the research agent what kind of stories to look for and what to ignore. Read this before running any Mode 3 searches.
 
